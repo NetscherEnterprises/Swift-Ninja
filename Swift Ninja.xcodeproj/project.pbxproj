@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5338164C1B932969005B17B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338164B1B932969005B17B3 /* AppDelegate.swift */; };
+		5338164E1B932969005B17B3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5338164D1B932969005B17B3 /* GameScene.sks */; };
+		533816501B932969005B17B3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5338164F1B932969005B17B3 /* GameScene.swift */; };
+		533816521B932969005B17B3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533816511B932969005B17B3 /* GameViewController.swift */; };
+		533816551B932969005B17B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533816531B932969005B17B3 /* Main.storyboard */; };
+		533816571B932969005B17B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533816561B932969005B17B3 /* Images.xcassets */; };
+		5338165A1B932969005B17B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533816581B932969005B17B3 /* LaunchScreen.xib */; };
+		533816661B932969005B17B3 /* Swift_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533816651B932969005B17B3 /* Swift_NinjaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533816601B932969005B17B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5338163E1B932969005B17B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533816451B932969005B17B3;
+			remoteInfo = "Swift Ninja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533816461B932969005B17B3 /* Swift Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5338164A1B932969005B17B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5338164B1B932969005B17B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5338164D1B932969005B17B3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5338164F1B932969005B17B3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		533816511B932969005B17B3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		533816541B932969005B17B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533816561B932969005B17B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		533816591B932969005B17B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5338165F1B932969005B17B3 /* Swift NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533816641B932969005B17B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533816651B932969005B17B3 /* Swift_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_NinjaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533816431B932969005B17B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5338165C1B932969005B17B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5338163D1B932969005B17B3 = {
+			isa = PBXGroup;
+			children = (
+				533816481B932969005B17B3 /* Swift Ninja */,
+				533816621B932969005B17B3 /* Swift NinjaTests */,
+				533816471B932969005B17B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533816471B932969005B17B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533816461B932969005B17B3 /* Swift Ninja.app */,
+				5338165F1B932969005B17B3 /* Swift NinjaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533816481B932969005B17B3 /* Swift Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				5338164B1B932969005B17B3 /* AppDelegate.swift */,
+				5338164D1B932969005B17B3 /* GameScene.sks */,
+				5338164F1B932969005B17B3 /* GameScene.swift */,
+				533816511B932969005B17B3 /* GameViewController.swift */,
+				533816531B932969005B17B3 /* Main.storyboard */,
+				533816561B932969005B17B3 /* Images.xcassets */,
+				533816581B932969005B17B3 /* LaunchScreen.xib */,
+				533816491B932969005B17B3 /* Supporting Files */,
+			);
+			path = "Swift Ninja";
+			sourceTree = "<group>";
+		};
+		533816491B932969005B17B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5338164A1B932969005B17B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		533816621B932969005B17B3 /* Swift NinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				533816651B932969005B17B3 /* Swift_NinjaTests.swift */,
+				533816631B932969005B17B3 /* Supporting Files */,
+			);
+			path = "Swift NinjaTests";
+			sourceTree = "<group>";
+		};
+		533816631B932969005B17B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				533816641B932969005B17B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533816451B932969005B17B3 /* Swift Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533816691B932969005B17B3 /* Build configuration list for PBXNativeTarget "Swift Ninja" */;
+			buildPhases = (
+				533816421B932969005B17B3 /* Sources */,
+				533816431B932969005B17B3 /* Frameworks */,
+				533816441B932969005B17B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Ninja";
+			productName = "Swift Ninja";
+			productReference = 533816461B932969005B17B3 /* Swift Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5338165E1B932969005B17B3 /* Swift NinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5338166C1B932969005B17B3 /* Build configuration list for PBXNativeTarget "Swift NinjaTests" */;
+			buildPhases = (
+				5338165B1B932969005B17B3 /* Sources */,
+				5338165C1B932969005B17B3 /* Frameworks */,
+				5338165D1B932969005B17B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533816611B932969005B17B3 /* PBXTargetDependency */,
+			);
+			name = "Swift NinjaTests";
+			productName = "Swift NinjaTests";
+			productReference = 5338165F1B932969005B17B3 /* Swift NinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5338163E1B932969005B17B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Netscher Enterprises";
+				TargetAttributes = {
+					533816451B932969005B17B3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5338165E1B932969005B17B3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 533816451B932969005B17B3;
+					};
+				};
+			};
+			buildConfigurationList = 533816411B932969005B17B3 /* Build configuration list for PBXProject "Swift Ninja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5338163D1B932969005B17B3;
+			productRefGroup = 533816471B932969005B17B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533816451B932969005B17B3 /* Swift Ninja */,
+				5338165E1B932969005B17B3 /* Swift NinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533816441B932969005B17B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5338165A1B932969005B17B3 /* LaunchScreen.xib in Resources */,
+				533816571B932969005B17B3 /* Images.xcassets in Resources */,
+				5338164E1B932969005B17B3 /* GameScene.sks in Resources */,
+				533816551B932969005B17B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5338165D1B932969005B17B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533816421B932969005B17B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533816501B932969005B17B3 /* GameScene.swift in Sources */,
+				533816521B932969005B17B3 /* GameViewController.swift in Sources */,
+				5338164C1B932969005B17B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5338165B1B932969005B17B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533816661B932969005B17B3 /* Swift_NinjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533816611B932969005B17B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533816451B932969005B17B3 /* Swift Ninja */;
+			targetProxy = 533816601B932969005B17B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533816531B932969005B17B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533816541B932969005B17B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		533816581B932969005B17B3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533816591B932969005B17B3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533816671B932969005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533816681B932969005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5338166A1B932969005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5338166B1B932969005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5338166D1B932969005B17B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Ninja.app/Swift Ninja";
+			};
+			name = Debug;
+		};
+		5338166E1B932969005B17B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Ninja.app/Swift Ninja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533816411B932969005B17B3 /* Build configuration list for PBXProject "Swift Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533816671B932969005B17B3 /* Debug */,
+				533816681B932969005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533816691B932969005B17B3 /* Build configuration list for PBXNativeTarget "Swift Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5338166A1B932969005B17B3 /* Debug */,
+				5338166B1B932969005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5338166C1B932969005B17B3 /* Build configuration list for PBXNativeTarget "Swift NinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5338166D1B932969005B17B3 /* Debug */,
+				5338166E1B932969005B17B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5338163E1B932969005B17B3 /* Project object */;
+}
